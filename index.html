@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="head-content">
+      <h1>Etch A Sketch</h1>
+    </header>
+    <div class="main">
+      <div class="container">
+          <div class="drawing-area">
+            
+          </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <input
+        type="range"
+        id="grid"
+        name="grid"
+        min="2"
+        max="100"
+        value="16"
+        step="1"
+      />
+      <button>Clear</button>
+      <button>Black</button>
+      <button>RGB</button>
+      <input type="color" value="#ffffff" />
+    </div>
+    <span id="range-text"></span>
+  </body>
+</html>
