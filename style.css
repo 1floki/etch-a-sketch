@@ -40,18 +40,22 @@ body {
 
 .drawing-area {
     width: 100%;
+    height: 100%;
 }
 
 #range-text {
     color: yellow;
 }
 
-.drawing-area {
- background-color: none;
-
+#drawing-area {
+ display: grid;
+ max-width: 100%;
+ max-height: 100%;
 }
 
-.test {
-    width: 200px;
-    /* height: 1000px; */
+.box {
+    border: black;
+    border-width: 1px;
+    background-color: blue;
+    height: auto;
 }
