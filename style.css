@@ -21,8 +21,6 @@ body {
 
 .container {
     border: 70px solid #cc4343;;
-    width: 600px;
-    height: 600px;
     border-radius: 50px;
     background-color: lightgrey;
     cursor: crosshair;
@@ -38,10 +36,7 @@ body {
     justify-content: space-evenly;
 }
 
-.drawing-area {
-    width: 100%;
-    height: 100%;
-}
+
 
 #range-text {
     color: yellow;
@@ -49,13 +44,10 @@ body {
 
 #drawing-area {
  display: grid;
- max-width: 100%;
- max-height: 100%;
+ width: 600px;
+ height: 600px;
 }
 
-.box {
-    border: black;
-    border-width: 1px;
-    background-color: blue;
-    height: auto;
+.box:hover { 
+    background-color: black;
 }

@@ -33,10 +33,13 @@ function changeGridVals () {
 }
 
 function createDivs() {
-  for (let i = 0; i < rangeSelected * 2; i++) {
+  for (let i = 0; i < rangeSelected ** 2; i++) {
     let draw = document.getElementById("drawing-area");
     let box = document.createElement("div");
     box.className = "box";
     draw.appendChild(box);
   }
 }
+
+let box = document.getElementsByClassName("box");
+
